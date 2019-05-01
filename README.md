@@ -1,5 +1,5 @@
 # PGE383-Geostatistic-Project
-project files for PGE383 Geostatistics
+project files for PGE383 Geostatistics taught by Michael J. Pyrcz at University of Texas at Austin (https://github.com/GeostatsGuy)
 
 Dependencies:
 This project utilizes GeostatsPy package. The GeostatsPy Package brings GSLIB: Geostatistical Library (Deutsch and Journel, 1998) functions to Python. GSLIB is extremely robust and practical code for building spatial modeling workflows. The repository for GeostatsPy package can be found here: https://github.com/GeostatsGuy/GeostatsPy
@@ -43,3 +43,10 @@ trend and residual workflow.
 calculations find an angle in cell offsets closest to major and minor.
 5. Combine the porosity and permeability by-facies with the cookie
 cutter approach.
+
+# Update 6
+The purpose of this update is to build a suite of scenarios and realizations to represent subsurface uncertainty. 
+The work included:
+1. Calculation of the uncertainty in facies proportions and average porosity by using the spatial bootstrap method
+2. Propagation of uncertainty in facies proportions and porosity average to porosity realizations
+3. Integration of the local uncertainty into the calculation of oil in place
